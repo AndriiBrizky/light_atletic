@@ -1,0 +1,266 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/stadium.jpg) no-repeat center top / cover;
+
+}
+
+.container {
+	width: 1230px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 10px;
+	float: left;
+	font-size: 14px
+}
+
+nav {
+	float: right;
+	margin-top: 45px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.titles__first {
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+
+h1 {
+	font-size: 50px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+
+.button {
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+.title {
+	padding-top: 115px;
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.title p {
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+#services {
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+.services__str li {
+	text-decoration: none;
+	color: #777777;
+	text-align: left;
+	font-size: 15px;
+	line-height: 1.55em;
+}
+.services__str {
+color: #777777;
+font-size: 15px;
+line-height: 1.55em;
+}
+.services__item	{
+	width: 430px;
+	float: left;
+	text-align: center;
+}
+
+.services__item h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.services__item p {
+	color: #777777;
+	font-size: 15px;
+	line-height: 1.55em;
+}
+
+#contact {
+	padding-bottom: 120px;
+	background: #DBDBDB;
+}
+
+#getting {
+	background: #E6E6E6;
+	padding-bottom: 120px;
+
+}
+#history{
+	background: #f7f7f7;
+	padding-bottom: 30px;
+}
+
+footer{
+	background: #D3D3D3;
+	display: block;
+	height: 10vh;
+	padding: 0;
+	margin:0;
+	font-size:  10px;
+}
+footer a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #272822;
+}
+#toTop {
+width:100px;
+border:1px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:10px; /* отступ кнопки от нижнего края страницы*/
+right:10px;
+cursor:pointer;
+display:none;
+color:#333;
+font-family:verdana;
+font-size:11px;
+}
+
+/* аудентифікація*/
+
+.audentification a{
+ color: #fff;
+}
+
+.audentification a:hover{
+ text-decoration: none;
+}
+.audentification{
+  width:450px;
+ padding-bottom: 10px;
+ background-color: rgba(24, 33, 52, 0.7);
+ margin: 100px auto 0 auto;
+ text-align: center;
+ box-shadow: 0 -5px 0 #3adbfd;
+ margin-bottom: 25px;
+}   
+
+input[type="text"],input[type="password"], input[type="email"]{
+ width: 300px;
+ height:50px;
+ font-size: 18px;
+ margin-bottom: 25px;
+ border-radius: 10px;
+ padding-left: 10px;
+ margin: auto ;
+}    
+
+.audentification img{
+ width:120px;
+ height:120px;
+ margin: -60px 0 30px 0;
+ border: 5px solid #1a394f;
+ border-radius: 50%;
+ box-shadow: 0 -5px 0 #3adbfd;
+}    
+
+.dws-submit {
+ padding: 13px 30px;
+ margin: 5px 0 20px 0;
+ font-size: 15px;
+ color: #fff;
+ background-color: #2ca8c6;
+ border: none;
+ border-bottom: 4px solid #6ee9fd;
+ cursor: pointer;
+}    
+
+.dws-submit:hover{
+ transition: all 0.5s;
+ background: #fff;
+ color: #2c536c;
+}    
+#comment{
+font-size: 18px;
+ margin-bottom: 25px;
+ border-radius: 4px;
+ padding-left: 10px;
+}    
+
+.legend{
+	font-size: 20px;
+	margin: 0 auto;
+}
+.tester{
+	margin: 0 auto;
+	background-color: #474747;
+}
+.question b{
+	font-size: 22px;
+	color:#2C61A9;
+text-transform: uppercase;
+}
+.question p{
+	color:#FDF7F8;
+	font-size: 16px;
+}
+.reg{
+	color: #F8EDD0;
+}

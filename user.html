@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Авторизація на сайті</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<header style="height: 100vh;">
+		<div class="container">
+			<div class="heading clearfix">
+				<img src="img/logo.png" style="height: 75px;" alt="Легка атлетика"  class="logo">
+				<nav>
+					<ul class="menu">
+						<li>
+							<a href="index.html">Домашня</a>
+						</li>
+						<li>
+							<a href="pre.html">Досягнення</a>
+						</li>
+						<li>
+							<a href="history.html">Дисципліни</a>
+						</li>
+						<li>
+							<a href="index.html#contact">Контакти</a>
+						</li>
+						<li>
+							<a href="user.html">Увійти</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+				<div class="audentification" align="center">
+					<img src="img/logo.png">
+					<form action="">
+						<div class="dws-input">
+							<input type="text" name="username" placeholder="Введіть логін">
+						</div>
+			
+						<div class="dws-input">
+							<input type="password" name="password" placeholder="Введіть пароль">
+						</div>
+							<br>
+							<input class="dws-submit" type="submit" name="submit" value="Вхід">
+							<a class="dws-submit" href="registration.html" onclick="newMyWindow(this.href); return false;">Реєстрація</a>
+<script>
+function newMyWindow(e) {
+  var h = 500,
+      w = 500;
+  window.open(e, '', 'scrollbars=1,height='+Math.min(h, screen.availHeight)+',width='+Math.min(w, screen.availWidth)+',left='+Math.max(0, (screen.availWidth - w)/2)+',top='+Math.max(0, (screen.availHeight - h)/2));
+}
+</script>	
+
+
+					</form>
+				</div>
+		</div>
+	</header>
+
+	<footer>
+			<table border="0px;" cellpadding="5" width="100%">
+				<tr>
+					<td>
+						<p>
+				Powered by <b>Anriy</b>® Version 1.0.1<br/>
+				Copyright ©2017 - 2018, <a href=""><ins>Andriy_Brizky</ins></a>, Inc. 
+						</p>
+					</td>
+					<td>
+						<img src="img/logo.png" style="height: 50px;" alt="Легка атлетика">
+					
+					</td>
+				</tr>
+			</table>
+		</footer>
+</body>
+</html>

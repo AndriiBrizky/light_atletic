@@ -1,0 +1,31 @@
+.tbl{
+	font-size: 14px;
+	color:#000;
+	margin: 0 auto;
+}
+
+.tbl p{
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+.tbl h2{
+	margin: 0 auto;
+}
+.tbl th{
+text-decoration: none;
+}
+
+.start{
+	font-size: 75px;
+	color:#547BA7;
+	margin: 0 0 0 0;
+}
+
+.zavd3{
+	width: 800px;
+	margin: 0 auto;
+}
+.str{
+	margin-top: 1px;
+}

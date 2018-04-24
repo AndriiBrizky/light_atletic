@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Реєстрація на сайті</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body style="background-color: #474747">
+	<div class="reg" align="center">
+		<h2 align="center">Дякуємо, що вирішили зареєструватись у нас на сайті</h2>
+		<form action="user.html">
+
+				<div class="form_row">
+					<label for="username"><b>Створіть нікнейм:</b></label>
+				</div>	
+				<div class="form_value">			
+					<input type="text" name="username" placeholder="Введіть нікнейм" required="Заповніть будь-ласка поле!">
+				</div>
+				<div class="form_row">
+					<label for="password"><b>Придумайте пароль:</b></label>
+				</div>
+				<div class="form_value">
+					<input type="password" name="password" placeholder="Введіть пароль" required="Заповніть будь-ласка поле!">
+				</div>
+				<div class="form_row">
+					<label for="password"><b>Введіть пароль ще раз:</b></label>
+				</div>
+				<div class="form_value">
+					<input type="password" name="password" placeholder="Повторіть пароль" required="Заповніть будь-ласка поле!">
+				</div>
+				<div class="form_row">
+					<label for="stat"><b>Виберіть свою стать:</b></label>
+				</div>
+				<div class="stt">
+					<input type="radio" name="stat" value="a1">Чоловіча
+					<input type="radio" name="stat" value="a2">Жіноча
+				</div>
+				<div class="form_row">
+					<label for="mail"><b>Введіть адресу своєї ел. пошти: </b></label>
+				</div>
+				<div class="form_value">
+					<input type="email" name= ="email" placeholder="Наприклад: kor@mail.com" required="Заповніть будь-ласка поле!">
+				</div>
+				<div class="form_row">
+					<label for="ctr"> <b>Виберіть свою країну:</b></label>
+				</div>
+				<div class="country">
+					<select name="ctr" >
+						<option value="s1">Україна</option>
+						<option value="s2">Росія</option>
+						<option value="s3">Польща</option>
+						<option value="s4">Німеччина</option>
+						<option value="s5">Англія</option>
+						<option value="s6">Америка</option>
+						<option value="s7">Греція</option>
+						<option value="s8">Білорусія</option>
+						<option value="s9">Литва</option>
+						<option value="s10">Чехія</option>
+					</select>
+				</div>
+				<div class="form_row">
+					<label for="brsday"> <b>Виберіть свою дату народження:</b></label>
+				</div>
+				<div>
+					<input type="date" name="brsday" required="Заповніть будь-ласка поле!>
+				</div>
+				<div class="form_value">
+                    <input type="submit" class="button" value="зареєструватись!" />
+                </div>
+                <div class="clearer">&nbsp;</div>
+		</form>
+	</div>
+</body>
+</html>

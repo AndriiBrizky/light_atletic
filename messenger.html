@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Send message</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body bgcolor="#f7f7f7">
+	<form action="handler.php" method="post" id="reply">
+                        <fieldset>  
+                            <div class="legend" align="center"><b>Написати Повідомлення</b></div>
+                            <div class="form_row">
+                                <div class="form_property form_required">
+                                    <label for="name"> Ваше Ім'я </label>
+                                </div>
+                                <div class="form_value">
+                                    <input type="text" size="32" name="name" value="" class="text" id="name" placeholder="Ім'я Прізвище" />
+                                </div>
+                                <div class="clearer">&nbsp;</div>
+                            </div>
+                            <div class="form_row">
+                                <div class="form_property">
+                                    <label for="email">Ваш email</label>
+                                </div>
+                                <div class="form_value">
+                                    <input type="text" size="32" name="email" value="" class="text" id="email" placeholder="Наприклад: kor@mail.com";/>
+                                </div>
+                                <div class="clearer">&nbsp;</div>
+                            </div>
+                            <div class="form_row">
+                                <div class="form_property form_required">
+                                    <label for="comment">Повідомлення</label>
+                                </div>
+                                <div class="form_value">
+                                    <textarea rows="10" cols="46" name="text" placeholder="Введіть текст повідомлення тут!" id="comment"></textarea>
+                                </div>
+                                <div class="clearer">&nbsp;</div>
+                            </div>
+                            <div class="form_row form_row_submit">
+                                <div class="form_value">
+                                    <input type="submit" class="button" value="Отправить »" />
+                                </div>
+                                <div class="clearer">&nbsp;</div>
+                            </div>
+                        </fieldset>
+                    </form>
+</body>
+</html>
